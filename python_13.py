@@ -59,3 +59,9 @@ print(str1.isspace())
 
 # 16.istitle returns true only there is first char is capitalize in a string
 print(name.istitle())
+
+# 17.Finding elements in a string
+if "s" in name:
+    print("Yes")
+else:
+    print("No")
