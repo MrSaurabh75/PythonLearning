@@ -1,34 +1,24 @@
-# Dictionary Methods 
-ep = {
-    1:23,
-    2:34,
-    3:35,
-    4:67,
-    5:80,
-    6:79,
-    7:90,
-    8:100,
-    9:10
-}
+# else in for loop 
 
-ep_mg = {
-    10:90,
-    11:90
-}
+for i in range(9):
+    print(i)
 
-# update()
-ep_mg.update(ep)
-print(ep_mg)
+else:
+    print("No i")
 
-# clear()
-ep.clear()
-print(ep)
 
-# pop()
-ep_mg.pop(10)
-print(ep_mg)
+for i in range(9):
+    print(i)
+    if i ==8:
+        break
+else:
+    print("No i") # it doesn't run
 
-# popitem()
-ep_mg.popitem()
-print(ep_mg)
-
+# else with while loop 
+i = 1
+while i<=5:
+    print(i)
+    i = i+1
+    
+else:
+    print("Submited")
