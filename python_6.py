@@ -33,7 +33,7 @@ print(list1)
 '''
 tuple --> i.A tuple is a orderd collection of data
           ii.Tuple is immutable means you cannot change tuple
-          iii.List is inclose in round breces 
+          iii.Tuple is inclose in round breces 
 '''
 tuple1 = (("Saurabh","Raj",1,2,3,("Laxman","Mahesh")))
 print(tuple1)
@@ -42,7 +42,7 @@ print(tuple1)
 '''
 dict -->i.Dictionary is collection of key-value pairs
         ii.Dictionary is a unorderd collection of data elements
-        iii.List is inclose in curly breces 
+        iii.Dictionary is inclose in curly breces 
 '''
 dict1 = {"RollNo":45,"Name":"Saurabh","Class":"12th A","Age":18}
 print(dict1)
