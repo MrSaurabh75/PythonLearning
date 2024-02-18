@@ -16,3 +16,18 @@
 #     print(user," is not a prime number")
 
 # Write a program to calculate the sum of even numbers from 1 t0 20
+# sum = 0
+# for i in range(1,21):
+#     if i%2==0:
+#         print(i)
+#         sum+=i
+# print("Sum of even numbers : ",sum)
+
+# Write a program to find factorial of a number entered by user
+# n = int(input("Enter a Number : "))
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*i
+# print(f"Factorial of {n} is {fact}")
+
+# 
