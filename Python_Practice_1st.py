@@ -30,4 +30,21 @@
 #     fact=fact*i
 # print(f"Factorial of {n} is {fact}")
 
-# 
+# Write a program to reverse a number entered by user
+# n = int(input("Enter a number : "))
+# print(f"Enter Number is {n}")
+# rev=0
+# while(n>0):
+#     rem = n%10
+#     rev=rev*10+rem
+#     n = int(n/10)
+# print(f"Reverse Number is {rev}")
+
+# Write a program to calculate the sum of digits of a number entered by user
+# n = int(input("Enter a number : "))
+# sum=0
+# while(n>0):
+#     rem = n%10
+#     sum = sum+rem
+#     n = int(n/10)
+# print(f"Sum of digits of a number is {sum}")
