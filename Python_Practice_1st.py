@@ -48,3 +48,35 @@
 #     sum = sum+rem
 #     n = int(n/10)
 # print(f"Sum of digits of a number is {sum}")
+
+# Write a program to check wheather the number is armstrong or not
+# n = int(input("Enter a Number : "))
+# sum=0
+# num=n
+# while(n>0):
+#     rem=n%10
+#     sum = sum+rem*rem*rem
+#     n=int(n/10)
+# if num==sum:
+#     print(num," is armstrong")
+# else:
+#     print(num," is not armstrong")
+
+# Program to find the GCD of two positive numbers.
+# m = int(input("Enter a first positive Number : "))
+# n = int(input("Enter a second positive Number : "))
+# if m==0:
+#     print(f"GCD is {n}")
+# elif n==0:
+#     print(f"GCD is {m}")
+# while m!=n:
+#     if m>n:
+#         m = m-n
+#     elif n>m:
+#         n=n-m
+# print(f"GCD of two numbers is {m}")
+
+# Program to print multiplication table of the given number.
+# num = int(input("Enter a Number : "))
+# for i in range(1,10+1):
+#     print(f"{num} X {i} = {num*i}")
