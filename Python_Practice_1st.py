@@ -80,3 +80,73 @@
 # num = int(input("Enter a Number : "))
 # for i in range(1,10+1):
 #     print(f"{num} X {i} = {num*i}")
+
+# Write a program to check wheather the string is palindrome or not
+# str = input("Enter a String : ")
+# if str==str[::-1]:
+#     print("String is palindrome !")
+# else:
+#     print("String is Not palindrome !")
+
+# Write a program to check wheather the number is palindrome or not
+# n = int(input("Enter a number : "))
+# num=n
+# rev=0
+# while(n>0):
+#     rem = n%10
+#     rev = rev*10+rem
+#     n = int(n/10)
+# if num==rev:
+#     print("Number is Palindrome")
+# else:
+#     print("Number is Not-Palindrome")
+
+# Write a program to return prime numbers in a given list
+# list1=[3,2,9,10,43,7,20,23]
+# l=[]
+# print("Prime Numbers in a list are : ")
+# for a in list1:
+#     prime=True
+#     for i in range(2,a):
+#         if a%i==0:
+#             prime=False
+#             break
+#     if prime:
+#         l.append(a)
+# print(l)
+
+# Print a pattern of * using loop
+# *
+# * * 
+# * * *
+# * * * *
+# * * * * *
+# for i in range(0,5):
+#     for j in range(0,i+1):
+#         print("* ",end="")
+#     print("\r")
+
+# Print a pattern 
+# 1
+# 1 2
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5 
+# for i in range(0,5):
+#     num = 1
+#     for j in range(0,i+1):
+#         print(num, end="")
+#         num = num+1
+#     print("\r")
+
+# Print a pattern 
+# 1
+# 2 3
+# 4 5 6
+# 7 8 9 10
+# num = 1
+# for i in range(0,4):
+#     for j in range(0,i+1):
+#         print(f"{num} ", end="")
+#         num+=1
+#     print("\r")
