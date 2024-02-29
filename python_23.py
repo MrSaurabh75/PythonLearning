@@ -2,11 +2,11 @@
 list1 = [4,5,6,78,9,0,1,2,3,4,5,6,7]
 
 # 1.list.sort()
-list1.sort() #Acending order
-print(list1)
+# list1.sort() #Acending order
+# print(list1)
 
-list1.sort(reverse=True) #Decending order
-print(list1)
+# list1.sort(reverse=True) #Decending order
+# print(list1)
 
 # 2.index()
 print(list1.index(4))

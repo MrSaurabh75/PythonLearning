@@ -12,10 +12,8 @@ print("Sum of X and Y is ",int(x)//int(y))
 print("Sum of X and Y is ",int(x)%int(y))
 print("Sum of X and Y is ",int(x)**int(y))
 
-# Some Arithmatic oprations 
+# Some Arithmatic oprations on a String
 p = input("Enter a 1st number : ")
 q = input("Enter a 2nd number : ")
-
-# Opratios On String
 print(p+q) #Concatination of string
 

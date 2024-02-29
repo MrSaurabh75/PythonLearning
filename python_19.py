@@ -1,4 +1,5 @@
 # break and continoue statement
+
 a = int (input("Enter a number : "))
 for i in range(1,15):
     print(a,"X",i,"=",a*i)

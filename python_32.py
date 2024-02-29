@@ -24,17 +24,17 @@ s2 = {5,6,7,2,6,8,9}
 # print(s3)
 
 # isdisjoint()
-print(s1.isdisjoint(s2))
+# print(s1.isdisjoint(s2))
 
 # issuperset()
-print(s1.issuperset(s2))
+# print(s1.issuperset(s2))
 
 # issubset()
-print(s1.issubset(s2))
+# print(s1.issubset(s2))
 
 # add()
-s2.add(12)
-print(s2)
+# s2.add(12)
+# print(s2)
 
 # remove() or discard()
 # s2.remove(23)
