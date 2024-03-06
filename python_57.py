@@ -1,4 +1,4 @@
-# Class is a blueprint or a template for creating a onject and Object is a instance of a class that has state and behaviour
+# Class is a blueprint or a template for creating a onject and Object is a instance of a class. Anything that has state and behaviour is known as object.
 
 class Person:
     name = "Saurabh"
