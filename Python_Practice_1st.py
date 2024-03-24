@@ -62,4 +62,3 @@
 #     print(f"{user} is a Armstrong Number")
 # else:
 #     print(f"{user} is not a Armstorng Number")
-
