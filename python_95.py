@@ -57,7 +57,20 @@ Address - Near Bhuleswar Colony
 # for j in matches2:
 #     print(j)
 
-pattern = re.compile(r'Mr\.?\s[A-Z]\w+')
-matches = pattern.finditer(information)
+# pattern = re.compile(r'Mr[s]?\.?\s[A-Z]\w+')
+# matches = pattern.finditer(information)
+# for i in matches:
+#     print(i)
+
+emails = '''
+saurabhdc7575@gmail.com
+sahilshide@gmail.com
+wkdwqiugduweihf iuwe
+dkehfuef @gmail.com
+AdarshJadhav27@gmail.com
+sushantpawar0707@university.edu
+'''
+pattern = re.compile(r'[a-zA-z]\w+[0-9]?@[a-zA-Z]\w+\.(com|edu)')
+matches = pattern.finditer(emails)
 for i in matches:
     print(i)
